@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    { "id": "Adrenergic beta blockade" },
+    { "id": "displacement" },
+    { "id": "tissue adrenaline" },
+    { "id": "circulating" },
+    { "id": "repolarisation" },
+    { "id": "subjects" },
+    { "id": "combination" },
+    { "id": "QT interval" },
+    { "id": "T wave amplitude" },
+    { "id": "potassium influx" },
+    { "id": "changes" },
+    { "id": "beta2 adrenoceptor" },
+    { "id": "norepinephrine" },
+    { "id": "epinephrine" },
+    { "id": "ATPase" },
+    { "id": "serum potassiun" },
+    { "id": "study" },
+    { "id": "diastolic blood pressure" },
+    { "id": "amplitude" },
+    { "id": "asymptomatic" },
+    { "id": "pressure" },
+    { "id": "adrenaline infusion" },
+    { "id": "ST" },
+    { "id": "systolic blood pressure" },
+    { "id": "sympathetic nervous system" },
+    { "id": "dopamine" },
+    { "id": "increased" },
+    { "id": "serum potassium,7" },
+    { "id": "serum" },
+    { "id": "effect" },
+    { "id": "ST segment" },
+    { "id": "drop" },
+    { "id": "decrease" },
+    { "id": "SERUM POTASSIUM (Fig. 1)" },
+    { "id": "shortened" },
+    { "id": "sium" },
+    { "id": "Simultaneous" },
+    { "id": "infusion" },
+    { "id": "mechanism" },
+    { "id": "Changes" },
+    { "id": "systolic" },
+    { "id": "induced" },
+    { "id": "increase" },
+    { "id": "sympathetic activity" },
+    { "id": "adrenaline" },
+    { "id": "electrocardiographic changes" },
+    { "id": "blood pressure" },
+    { "id": "renaline" },
+    { "id": "circulating catecholamines" },
+    { "id": "blood" },
+    { "id": "administration" },
+    { "id": "serum potassium" },
+    { "id": "beta adrenoceptors" },
+    { "id": "ventricular arrhythmias" },
+    { "id": "Hypokalaemia" },
+    { "id": "prolonged" },
+    { "id": "results" },
+    { "id": "acute myocardial infarction" },
+    { "id": "Time-related changes" },
+    { "id": "beta" },
+    { "id": "Abildskov16" },
+    { "id": "hypokalaemia" },
+    { "id": "infused" },
+    { "id": "intravenous" },
+    { "id": "dysrhythmias" },
+    { "id": "potassium supplements" },
+    { "id": "electrocardiogram" },
+    { "id": "effects of" },
+    { "id": "heart rate" },
+    { "id": "dextrose" },
+    { "id": "genesis" },
+    { "id": "QTc interval" },
+    { "id": "ST segment displacement" },
+    { "id": "adrenaline-induced" },
+    { "id": "T wave" },
+    { "id": "plasma catecholamines" },
+    { "id": "1-adrenaline" },
+    { "id": "Adrenaline" },
+    { "id": "group" },
+    { "id": "QTc" },
+    { "id": "arrhythmias" },
+    { "id": "autonomic blockade" },
+    { "id": "U waves" },
+    { "id": "indirect" },
+    { "id": "decreased" },
+    { "id": "Adrenergic effects" },
+    { "id": "man" },
+    { "id": "atrial " },
+    { "id": "malities" },
+    { "id": "local" },
+    { "id": "urinary excretion" },
+    { "id": "trocardiogram" },
+    { "id": "K-pump" },
+    { "id": "plasma" },
+    { "id": "acute myocardial" },
+    { "id": "Q-T interval" },
+    { "id": "T wave flattening" },
+    { "id": "ST segment depression" },
+    { "id": "autonomic activity" },
+    { "id": "potassium" },
+    { "id": "Prolongation" },
+    { "id": "catecholamines.4  " },
+    { "id": "tion" },
+    { "id": "metabolic" },
+    { "id": "ascorbic acid" },
+    { "id": "QT" },
+    { "id": "minutes" },
+    { "id": "ventricular repolarisation" }
+  ],
+  "links": [
+    {
+      "source": "adrenaline",
+      "target": "systolic blood pressure",
+      "relation": "increases"
+    },
+    {
+      "source": "adrenaline",
+      "target": "diastolic blood pressure",
+      "relation": "decreases"
+    },
+    { "source": "adrenaline", "target": "heart rate", "relation": "increases" },
+    {
+      "source": "adrenaline",
+      "target": "T wave amplitude",
+      "relation": "decreases"
+    },
+    {
+      "source": "adrenaline",
+      "target": "QTc interval",
+      "relation": "increases"
+    },
+    {
+      "source": "adrenaline",
+      "target": "serum potassium",
+      "relation": "decreases"
+    },
+    {
+      "source": "serum potassium",
+      "target": "Hypokalaemia",
+      "relation": "decreases"
+    },
+    {
+      "source": "serum potassium",
+      "target": "ventricular arrhythmias",
+      "relation": "increases"
+    },
+    { "source": "adrenaline", "target": "increase", "relation": "increases" },
+    {
+      "source": "adrenaline",
+      "target": "arrhythmias",
+      "relation": "increases"
+    },
+    {
+      "source": "adrenaline",
+      "target": "ventricular repolarisation",
+      "relation": "affects"
+    },
+    { "source": "adrenaline", "target": "hypokalaemia", "relation": "affects" },
+    {
+      "source": "Hypokalaemia",
+      "target": "hypokalaemia",
+      "relation": "affects"
+    },
+    {
+      "source": "hypokalaemia",
+      "target": "potassium supplements",
+      "relation": "decreases"
+    },
+    {
+      "source": "hypokalaemia",
+      "target": "increased",
+      "relation": "increases"
+    },
+    {
+      "source": "hypokalaemia",
+      "target": "urinary excretion",
+      "relation": "increases"
+    },
+    {
+      "source": "increased",
+      "target": "acute myocardial",
+      "relation": "increases"
+    },
+    { "source": "intravenous", "target": "adrenaline", "relation": "affects" },
+    {
+      "source": "adrenaline",
+      "target": "serum potassium,7",
+      "relation": "decreases"
+    },
+    {
+      "source": "increased",
+      "target": "circulating catecholamines",
+      "relation": "increases"
+    },
+    {
+      "source": "adrenaline",
+      "target": "serum potassium",
+      "relation": "affects"
+    },
+    {
+      "source": "adrenaline",
+      "target": "electrocardiogram",
+      "relation": "affects"
+    },
+    {
+      "source": "1-adrenaline",
+      "target": "Adrenaline",
+      "relation": "contains"
+    },
+    { "source": "dextrose", "target": "dextrose", "relation": "contains" },
+    { "source": "dextrose", "target": "ascorbic acid", "relation": "contains" },
+    {
+      "source": "Adrenaline",
+      "target": "adrenaline infusion",
+      "relation": "infusion"
+    },
+    { "source": "Adrenaline", "target": "adrenaline", "relation": "levels" },
+    {
+      "source": "SERUM POTASSIUM (Fig. 1)",
+      "target": "potassium",
+      "relation": "drop"
+    },
+    {
+      "source": "SERUM POTASSIUM (Fig. 1)",
+      "target": "potassium",
+      "relation": "potassium"
+    },
+    {
+      "source": "SERUM POTASSIUM (Fig. 1)",
+      "target": "drop",
+      "relation": "drop"
+    },
+    {
+      "source": "SERUM POTASSIUM (Fig. 1)",
+      "target": "infusion",
+      "relation": "infusion"
+    },
+    {
+      "source": "SERUM POTASSIUM (Fig. 1)",
+      "target": "serum potassium",
+      "relation": "serum potassium"
+    },
+    {
+      "source": "SERUM POTASSIUM (Fig. 1)",
+      "target": "minutes",
+      "relation": "returned"
+    },
+    { "source": "drop", "target": "potassium", "relation": "decreases" },
+    {
+      "source": "serum potassium",
+      "target": "potassium",
+      "relation": "decreases"
+    },
+    { "source": "adrenaline", "target": "adrenaline", "relation": "simulates" },
+    {
+      "source": "adrenaline",
+      "target": "acute myocardial",
+      "relation": "encountered in"
+    },
+    { "source": "adrenaline", "target": "tion", "relation": "encountered in" },
+    { "source": "adrenaline", "target": "increase", "relation": "increase" },
+    { "source": "adrenaline", "target": "heart rate", "relation": "increase" },
+    { "source": "adrenaline", "target": "pressure", "relation": "increase" },
+    { "source": "adrenaline", "target": "systolic", "relation": "increase" },
+    { "source": "adrenaline", "target": "blood", "relation": "increase" },
+    {
+      "source": "Changes",
+      "target": "serum potassiun",
+      "relation": "produced by"
+    },
+    { "source": "decreased", "target": "T wave", "relation": "decreased" },
+    { "source": "decreased", "target": "U waves", "relation": "decreased" },
+    {
+      "source": "decreased",
+      "target": "ST segment displacement",
+      "relation": "decreased"
+    },
+    { "source": "decreased", "target": "QT", "relation": "prolongation" },
+    { "source": "amplitude", "target": "T wave", "relation": "decreased" },
+    { "source": "amplitude", "target": "T wave", "relation": "increased" },
+    { "source": "amplitude", "target": "group", "relation": "decreased" },
+    { "source": "amplitude", "target": "subjects", "relation": "decreased" },
+    { "source": "T wave", "target": "decreased", "relation": "decreases" },
+    { "source": "T wave", "target": "increased", "relation": "increases" },
+    { "source": "T wave", "target": "decreased", "relation": "decreases" },
+    { "source": "QT interval", "target": "increased", "relation": "increases" },
+    { "source": "QT interval", "target": "increased", "relation": "increases" },
+    { "source": "QTc", "target": "increased", "relation": "increases" },
+    {
+      "source": "ST",
+      "target": "ST segment depression",
+      "relation": "developed"
+    },
+    { "source": "Adrenaline", "target": "decrease", "relation": "decrease" },
+    {
+      "source": "beta2 adrenoceptor",
+      "target": "ATPase",
+      "relation": "linked to"
+    },
+    {
+      "source": "adrenaline",
+      "target": "potassium influx",
+      "relation": "induced"
+    },
+    { "source": "adrenaline", "target": "hypokalaemia", "relation": "cause" },
+    {
+      "source": "catecholamines.4  ",
+      "target": "hypokalaemia",
+      "relation": "induced"
+    },
+    { "source": "effects of", "target": "infused", "relation": "examined" },
+    { "source": "adrenaline", "target": "effect", "relation": "studied" },
+    { "source": "adrenaline", "target": "QT interval", "relation": "look for" },
+    { "source": "adrenaline", "target": "amplitude", "relation": "decrease" },
+    {
+      "source": "adrenaline",
+      "target": "ST segment",
+      "relation": "displacement"
+    },
+    { "source": "effect", "target": "QT interval", "relation": "effect" },
+    { "source": "increased", "target": "circulating", "relation": "increases" },
+    {
+      "source": "adrenaline-induced",
+      "target": "hypokalaemia",
+      "relation": "induces"
+    },
+    { "source": "effects of", "target": "infused", "relation": "examined" },
+    { "source": "effects of", "target": "adrenaline", "relation": "examined" },
+    {
+      "source": "adrenaline",
+      "target": "trocardiogram",
+      "relation": "infused"
+    },
+    {
+      "source": "changes",
+      "target": "QT interval",
+      "relation": "look for changes"
+    },
+    { "source": "changes", "target": "U waves", "relation": "observe" },
+    { "source": "changes", "target": "decrease", "relation": "decrease" },
+    { "source": "changes", "target": "T wave", "relation": "decrease" },
+    {
+      "source": "changes",
+      "target": "displacement",
+      "relation": "displacement"
+    },
+    { "source": "Abildskov16", "target": "effect", "relation": "studied" },
+    { "source": "Abildskov16", "target": "prolonged", "relation": "prolonged" },
+    { "source": "Abildskov16", "target": "shortened", "relation": "shortened" },
+    { "source": "adrenaline", "target": "induced", "relation": "induced" },
+    { "source": "induced", "target": "malities", "relation": "abnormalities" },
+    {
+      "source": "induced",
+      "target": "repolarisation",
+      "relation": "abnormalities"
+    },
+    {
+      "source": "repolarisation",
+      "target": "arrhythmias",
+      "relation": "predispose to"
+    },
+    {
+      "source": "Prolongation",
+      "target": "genesis",
+      "relation": "relevant to"
+    },
+    {
+      "source": "T wave flattening",
+      "target": "displacement",
+      "relation": "result of"
+    },
+    {
+      "source": "increased",
+      "target": "sympathetic activity",
+      "relation": "increased"
+    },
+    {
+      "source": "results",
+      "target": "electrocardiographic changes",
+      "relation": "in line with"
+    },
+    {
+      "source": "adrenaline",
+      "target": "beta adrenoceptors",
+      "relation": "effects on"
+    },
+    { "source": "adrenaline", "target": "adrenaline", "relation": "induced" },
+    {
+      "source": "adrenaline",
+      "target": "combination",
+      "relation": "induced by"
+    },
+    {
+      "source": "sympathetic nervous system",
+      "target": "genesis",
+      "relation": "genesis of"
+    },
+    { "source": "study", "target": "circulating", "relation": "suggests" },
+    {
+      "source": "circulating",
+      "target": "plasma catecholamines",
+      "relation": "circulating"
+    },
+    {
+      "source": "plasma catecholamines",
+      "target": "adrenaline",
+      "relation": "especially"
+    },
+    {
+      "source": "adrenaline",
+      "target": "arrhythmias",
+      "relation": "role to play in"
+    },
+    { "source": "mechanism", "target": "beta", "relation": "direct via" },
+    { "source": "mechanism", "target": "indirect", "relation": "indirect via" },
+    { "source": "indirect", "target": "adrenaline", "relation": "induced" },
+    {
+      "source": "potassium",
+      "target": "acute myocardial infarction",
+      "relation": "affects"
+    },
+    {
+      "source": "potassium",
+      "target": "acute myocardial infarction",
+      "relation": "affects"
+    },
+    {
+      "source": "plasma catecholamines",
+      "target": "tion",
+      "relation": "affects"
+    },
+    {
+      "source": "Adrenaline",
+      "target": "electrocardiogram",
+      "relation": "affects"
+    },
+    {
+      "source": "Adrenaline",
+      "target": "blood pressure",
+      "relation": "affects"
+    },
+    {
+      "source": "Adrenaline",
+      "target": "serum potassium",
+      "relation": "affects"
+    },
+    {
+      "source": "metabolic",
+      "target": "acute myocardial",
+      "relation": "affects"
+    },
+    {
+      "source": "Adrenergic beta blockade",
+      "target": "changes",
+      "relation": "affects"
+    },
+    { "source": "plasma", "target": "administration", "relation": "affects" },
+    {
+      "source": "Simultaneous",
+      "target": "tissue adrenaline",
+      "relation": "affects"
+    },
+    { "source": "Simultaneous", "target": "renaline", "relation": "affects" },
+    { "source": "Simultaneous", "target": "dopamine", "relation": "affects" },
+    { "source": "adrenaline", "target": "man", "relation": "blocks" },
+    { "source": "serum", "target": "adrenaline", "relation": "stimulating" },
+    { "source": "sium", "target": "K-pump", "relation": "stimulate" },
+    { "source": "epinephrine", "target": "QT interval", "relation": "affects" },
+    {
+      "source": "norepinephrine",
+      "target": "QT interval",
+      "relation": "affects"
+    },
+    {
+      "source": "Adrenergic effects",
+      "target": "QT interval",
+      "relation": "affects"
+    },
+    {
+      "source": "Q-T interval",
+      "target": "Time-related changes",
+      "relation": "affects"
+    },
+    {
+      "source": "acute myocardial infarction",
+      "target": "heart rate",
+      "relation": "affects"
+    },
+    {
+      "source": "acute myocardial infarction",
+      "target": "autonomic activity",
+      "relation": "affects"
+    },
+    {
+      "source": "acute myocardial infarction",
+      "target": "adrenaline infusion",
+      "relation": "affects"
+    },
+    { "source": "local", "target": "dysrhythmias", "relation": "affects" },
+    {
+      "source": "heart rate",
+      "target": "autonomic activity",
+      "relation": "interrelates"
+    },
+    {
+      "source": "heart rate",
+      "target": "asymptomatic",
+      "relation": "interrelates"
+    },
+    {
+      "source": "autonomic activity",
+      "target": "asymptomatic",
+      "relation": "interrelates"
+    },
+    {
+      "source": "autonomic activity",
+      "target": "atrial ",
+      "relation": "affects"
+    },
+    {
+      "source": "autonomic activity",
+      "target": "adrenaline infusion",
+      "relation": "affects"
+    },
+    {
+      "source": "autonomic activity",
+      "target": "autonomic blockade",
+      "relation": "affects"
+    },
+    { "source": "atrial ", "target": "dysrhythmias", "relation": "affects" },
+    {
+      "source": "adrenaline infusion",
+      "target": "dysrhythmias",
+      "relation": "affects"
+    },
+    {
+      "source": "autonomic blockade",
+      "target": "dysrhythmias",
+      "relation": "affects"
+    }
+  ]
+}

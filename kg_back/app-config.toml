@@ -1,0 +1,13 @@
+[store]
+storage_path = "./store"
+db_name = "kg.db"
+
+[pipeline]
+batch_size = 4000
+rel_labels = ["decreases",  "increases",  "affects",  "regulates",  "stabilizes",  "destabilizes",  "activates",  "deactivates",  "cofactor for"]
+model = "spacy.GPT-3-5.v3"
+model_name = "gpt-3.5-turbo"
+# model = "spacy.Dolly.v1"
+# model_name = "dolly-v2-7b"
+rel_template_path = "templates/paper_rel_template.jinja"
+spacy_config = "spacy_pipeline_gpt3_5.cfg"
